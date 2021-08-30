@@ -40,7 +40,7 @@ public class Test {
         System.out.println("LinkedList: " + arrayTest.addInEnd(linkedList, size));
     }
 
-    public void addList (List <Integer> list, int arraySize) {
+    private void addList (List <Integer> list, int arraySize) {
         for (int i = 0; i < arraySize; i++) {
             list.add(i);
         }
